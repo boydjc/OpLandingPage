@@ -74,6 +74,14 @@ body {
 .infoText { 
 	font-size: 18px;
 	color: #4B5563;
+	text-align: center;
+}
+
+#infoBoxContainer {
+	display: flex;
+	justify-content: space-around;
+	gap: 40px;
+	width: 100px;
 }
 
 .infoBox {
@@ -87,6 +95,14 @@ body {
 	font-size: 36px;
 	font-weight: 800;
 	color: #1F2937;
+}
+
+#infoContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 110px;
 }
 
 #greetButton {
