@@ -1,16 +1,35 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
 #header, #footer {
 	background-color: #1F2937;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 120px;
+	padding-left: 115px;
 }
 
 #header p {
 	font-size: 24px;
 	color: #F9FAF8;
+	font-weight: bold;
+	padding-left: 70px;
 }
 
 #header ul {
 	list-style-type: none;
 	margin: 0; 
 	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
 }
 
 #header ul li a { 
@@ -19,7 +38,23 @@
 
 #greetingContainer {
 	background-color: #1F2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 120px;
+	padding-top: 100px;
+	padding-left: 165px;
+	padding-bottom: 100px;
+	padding-right: 100px;
 }
+
+#greetingContent {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+
 
 #mainText {
 	font-size: 48px;
@@ -27,9 +62,13 @@
 	color: #F9FAF8;
 }
 
-.secondaryText {
+.secondaryText, .navBarLink {
 	font-size: 18px;
 	color: #E5E7EB;
+}
+
+.secondaryText {
+	margin-top: -55px;
 }
 
 .infoText { 
@@ -50,10 +89,16 @@
 	color: #1F2937;
 }
 
+#greetButton {
+	border: none;
+}
+
 button {
 	background-color: #3882F6;
 	border: 2px solid white;
 	width: 120px;
+	padding: 8px;
+	font-weight: bold;
 	border-radius: 10px;
 	font-size: 20px;
 	color: #FFFFFF;
