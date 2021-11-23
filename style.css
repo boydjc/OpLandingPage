@@ -120,12 +120,14 @@ body {
 button {
 	background-color: #3882F6;
 	border: 2px solid white;
-	width: 120px;
+	width: 130px;
+	height: 35px;
 	padding: 8px;
 	font-weight: bold;
 	border-radius: 10px;
 	font-size: 20px;
 	color: #FFFFFF;
+	line-height: 0px;
 }
 
 #quoteContainer {
@@ -153,9 +155,29 @@ button {
 	font-weight: bold;
 }
 
+#signupContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 80px;
+}
+
 #signupSubContainer {
 	background-color: #3882F6;
 	color: #FFFFFF;
+	height: 100px;
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#signupButtonContainer {
+	margin-top: 40px;
 }
 
 #signupHeader {
@@ -164,6 +186,7 @@ button {
 }
 
 #signupMessage {
+	margin-top: -20px;
 	font-size: 20px;
 }
 
