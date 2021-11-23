@@ -1,16 +1,35 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
 #header, #footer {
 	background-color: #1F2937;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 120px;
+	padding-left: 115px;
 }
 
 #header p {
 	font-size: 24px;
 	color: #F9FAF8;
+	font-weight: bold;
+	padding-left: 70px;
 }
 
 #header ul {
 	list-style-type: none;
 	margin: 0; 
 	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
 }
 
 #header ul li a { 
@@ -19,7 +38,23 @@
 
 #greetingContainer {
 	background-color: #1F2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 120px;
+	padding-top: 100px;
+	padding-left: 165px;
+	padding-bottom: 100px;
+	padding-right: 100px;
 }
+
+#greetingContent {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+
 
 #mainText {
 	font-size: 48px;
@@ -27,14 +62,34 @@
 	color: #F9FAF8;
 }
 
-.secondaryText {
+.secondaryText, .navBarLink {
 	font-size: 18px;
 	color: #E5E7EB;
+}
+
+.secondaryText {
+	margin-top: -55px;
 }
 
 .infoText { 
 	font-size: 18px;
 	color: #4B5563;
+	text-align: center;
+}
+
+#infoBoxContainer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+#infoBoxContainer div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
 }
 
 .infoBox {
@@ -50,17 +105,42 @@
 	color: #1F2937;
 }
 
+#infoContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 110px;
+}
+
+#greetButton {
+	border: none;
+}
+
 button {
 	background-color: #3882F6;
 	border: 2px solid white;
-	width: 120px;
+	width: 130px;
+	height: 35px;
+	padding: 8px;
+	font-weight: bold;
 	border-radius: 10px;
 	font-size: 20px;
 	color: #FFFFFF;
+	line-height: 0px;
 }
 
 #quoteContainer {
 	background-color: #E5E7EB;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+#quoteContainer div {
+	width: 800px;
 }
 
 #quoteText {
@@ -72,11 +152,32 @@ button {
 #quotePerson {
 	font-size: 24px;
 	text-align: right;
+	font-weight: bold;
+}
+
+#signupContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 80px;
 }
 
 #signupSubContainer {
 	background-color: #3882F6;
 	color: #FFFFFF;
+	height: 100px;
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#signupButtonContainer {
+	margin-top: 40px;
 }
 
 #signupHeader {
@@ -85,6 +186,7 @@ button {
 }
 
 #signupMessage {
+	margin-top: -20px;
 	font-size: 20px;
 }
 
