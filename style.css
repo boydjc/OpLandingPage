@@ -1,3 +1,12 @@
+/* Color Palette
+	Midnight Green Eagle Green: #0D5C63
+	Dark Purple: #1F0318
+	Rosso Corsa: #D00000
+	Dark Sea Green: #8BBD8B
+	Lemon Glacier: #FFFC08
+*/
+
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -5,21 +14,20 @@ body {
 }
 
 #header, #footer {
-	background-color: #1F2937;
+	background-color: #8BBD8B;
 }
 
 #header {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 120px;
+	padding-right: 100px;
 	padding-left: 115px;
+	color: #1F0318;
 }
 
-#header p {
-	font-size: 24px;
-	color: #F9FAF8;
-	font-weight: bold;
-	padding-left: 70px;
+#header img {
+	padding-top: 15px;
+	padding-left: 50px;
 }
 
 #header ul {
@@ -34,17 +42,18 @@ body {
 
 #header ul li a { 
 	text-decoration: none;
+	font-size: 22px;
 }
 
 #greetingContainer {
-	background-color: #1F2937;
+	background-color: #8BBD8B;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 120px;
 	padding-top: 100px;
 	padding-left: 165px;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 	padding-right: 100px;
 }
 
@@ -54,21 +63,19 @@ body {
 	width: 400px;
 }
 
-
-
 #mainText {
 	font-size: 48px;
 	font-weight: 800;
-	color: #F9FAF8;
+	color: #1F0318;
 }
 
 .secondaryText, .navBarLink {
 	font-size: 18px;
-	color: #E5E7EB;
+	color: #0D5C63;
 }
 
 .secondaryText {
-	margin-top: -55px;
+	margin-top: -20px;
 }
 
 .infoText { 
@@ -93,7 +100,7 @@ body {
 }
 
 .infoBox {
-	border: 4px solid #3B82F6;
+	border: 4px solid #8BBD8B;
 	border-radius: 13px;
 	width: 150px;
 	height: 150px;
@@ -102,7 +109,7 @@ body {
 #infoHeader {
 	font-size: 36px;
 	font-weight: 800;
-	color: #1F2937;
+	color: #1F0318;
 }
 
 #infoContainer {
@@ -118,20 +125,20 @@ body {
 }
 
 button {
-	background-color: #3882F6;
-	border: 2px solid white;
+	background-color: #FFFC08;
+	border: 2px solid #1F0318;
 	width: 130px;
 	height: 35px;
 	padding: 8px;
 	font-weight: bold;
 	border-radius: 10px;
 	font-size: 20px;
-	color: #FFFFFF;
+	color: #D00000;
 	line-height: 0px;
 }
 
 #quoteContainer {
-	background-color: #E5E7EB;
+	background-color: #FFFC08;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -146,13 +153,14 @@ button {
 #quoteText {
 	font-size: 36px;
 	font-style: italic;
-	color: #1F2937;
+	color: #D00000;
 }
 
 #quotePerson {
 	font-size: 24px;
 	text-align: right;
 	font-weight: bold;
+	color: #D00000;
 }
 
 #signupContainer {
@@ -166,7 +174,7 @@ button {
 }
 
 #signupSubContainer {
-	background-color: #3882F6;
+	background-color: #0D5C63;
 	color: #FFFFFF;
 	height: 100px;
 	width: 1000px;
@@ -192,6 +200,6 @@ button {
 
 #footer {
 	font-size: 18px;
-	color: #FFFFFF;
+	color: #1F0318;
 	text-align: center;
 }
